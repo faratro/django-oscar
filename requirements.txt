@@ -44,4 +44,5 @@ ipython==2.3.0
 pycountry==1.8
 
 # for Heroku
-# gunicorn==19.1.0
+gunicorn==19.3.0
+dj-database-url==0.3.0
