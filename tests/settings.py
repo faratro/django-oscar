@@ -89,3 +89,8 @@ OSCAR_LINE_STATUS_PIPELINE = {'a': ('b', ), 'b': ()}
 
 SECRET_KEY = 'notverysecret'
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
+
+# Heroku
+# Parse database configuration from $DATABASE_URL
+import dj_database_url
+DATABASES['default'] =  dj_database_url.config()
