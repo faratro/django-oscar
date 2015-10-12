@@ -44,4 +44,4 @@ ipython==2.3.0
 pycountry==1.8
 
 # for Heroku
-pip freeze
+# gunicorn==19.1.0
